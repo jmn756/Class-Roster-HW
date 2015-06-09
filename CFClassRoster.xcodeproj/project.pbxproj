@@ -13,6 +13,7 @@
 		B0A852701B1FEEBD00A37E59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A8526F1B1FEEBD00A37E59 /* Images.xcassets */; };
 		B0A852731B1FEEBD00A37E59 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0A852711B1FEEBD00A37E59 /* LaunchScreen.xib */; };
 		B0A8527F1B1FEEBD00A37E59 /* CFClassRosterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A8527E1B1FEEBD00A37E59 /* CFClassRosterTests.swift */; };
+		B0A852891B20A77A00A37E59 /* HWSpecs in Resources */ = {isa = PBXBuildFile; fileRef = B0A852881B20A77A00A37E59 /* HWSpecs */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B0A852781B1FEEBD00A37E59 /* CFClassRosterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFClassRosterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A8527D1B1FEEBD00A37E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0A8527E1B1FEEBD00A37E59 /* CFClassRosterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFClassRosterTests.swift; sourceTree = "<group>"; };
+		B0A852881B20A77A00A37E59 /* HWSpecs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HWSpecs; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				B0A8526F1B1FEEBD00A37E59 /* Images.xcassets */,
 				B0A852711B1FEEBD00A37E59 /* LaunchScreen.xib */,
 				B0A852661B1FEEBD00A37E59 /* Supporting Files */,
+				B0A852881B20A77A00A37E59 /* HWSpecs */,
 			);
 			path = CFClassRoster;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0A852891B20A77A00A37E59 /* HWSpecs in Resources */,
 				B0A8526E1B1FEEBD00A37E59 /* Main.storyboard in Resources */,
 				B0A852731B1FEEBD00A37E59 /* LaunchScreen.xib in Resources */,
 				B0A852701B1FEEBD00A37E59 /* Images.xcassets in Resources */,
