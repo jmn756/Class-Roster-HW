@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		B0A852691B1FEEBD00A37E59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A852681B1FEEBD00A37E59 /* AppDelegate.swift */; };
-		B0A8526B1B1FEEBD00A37E59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A8526A1B1FEEBD00A37E59 /* ViewController.swift */; };
+		B0A8526B1B1FEEBD00A37E59 /* ClassRosterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A8526A1B1FEEBD00A37E59 /* ClassRosterTableViewController.swift */; };
 		B0A8526E1B1FEEBD00A37E59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A8526C1B1FEEBD00A37E59 /* Main.storyboard */; };
 		B0A852701B1FEEBD00A37E59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A8526F1B1FEEBD00A37E59 /* Images.xcassets */; };
 		B0A852731B1FEEBD00A37E59 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0A852711B1FEEBD00A37E59 /* LaunchScreen.xib */; };
 		B0A8527F1B1FEEBD00A37E59 /* CFClassRosterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A8527E1B1FEEBD00A37E59 /* CFClassRosterTests.swift */; };
 		B0A852891B20A77A00A37E59 /* HWSpecs in Resources */ = {isa = PBXBuildFile; fileRef = B0A852881B20A77A00A37E59 /* HWSpecs */; };
+		B0D40BCB1B2E1B6B00A92F6F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D40BCA1B2E1B6B00A92F6F /* Person.swift */; };
+		B0D40BCF1B2E598400A92F6F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D40BCE1B2E598400A92F6F /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +32,7 @@
 		B0A852631B1FEEBD00A37E59 /* CFClassRoster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFClassRoster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A852671B1FEEBD00A37E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0A852681B1FEEBD00A37E59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B0A8526A1B1FEEBD00A37E59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0A8526A1B1FEEBD00A37E59 /* ClassRosterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassRosterTableViewController.swift; sourceTree = "<group>"; };
 		B0A8526D1B1FEEBD00A37E59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0A8526F1B1FEEBD00A37E59 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B0A852721B1FEEBD00A37E59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -38,6 +40,8 @@
 		B0A8527D1B1FEEBD00A37E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0A8527E1B1FEEBD00A37E59 /* CFClassRosterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFClassRosterTests.swift; sourceTree = "<group>"; };
 		B0A852881B20A77A00A37E59 /* HWSpecs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HWSpecs; sourceTree = "<group>"; };
+		B0D40BCA1B2E1B6B00A92F6F /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		B0D40BCE1B2E598400A92F6F /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +84,14 @@
 			isa = PBXGroup;
 			children = (
 				B0A852681B1FEEBD00A37E59 /* AppDelegate.swift */,
-				B0A8526A1B1FEEBD00A37E59 /* ViewController.swift */,
+				B0A8526A1B1FEEBD00A37E59 /* ClassRosterTableViewController.swift */,
 				B0A8526C1B1FEEBD00A37E59 /* Main.storyboard */,
 				B0A8526F1B1FEEBD00A37E59 /* Images.xcassets */,
 				B0A852711B1FEEBD00A37E59 /* LaunchScreen.xib */,
 				B0A852661B1FEEBD00A37E59 /* Supporting Files */,
 				B0A852881B20A77A00A37E59 /* HWSpecs */,
+				B0D40BCA1B2E1B6B00A92F6F /* Person.swift */,
+				B0D40BCE1B2E598400A92F6F /* DetailViewController.swift */,
 			);
 			path = CFClassRoster;
 			sourceTree = "<group>";
@@ -216,8 +222,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0A8526B1B1FEEBD00A37E59 /* ViewController.swift in Sources */,
+				B0D40BCB1B2E1B6B00A92F6F /* Person.swift in Sources */,
+				B0A8526B1B1FEEBD00A37E59 /* ClassRosterTableViewController.swift in Sources */,
 				B0A852691B1FEEBD00A37E59 /* AppDelegate.swift in Sources */,
+				B0D40BCF1B2E598400A92F6F /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +423,7 @@
 				B0A852841B1FEEBD00A37E59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0A852851B1FEEBD00A37E59 /* Build configuration list for PBXNativeTarget "CFClassRosterTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +432,7 @@
 				B0A852871B1FEEBD00A37E59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
